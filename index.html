@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Персональная страница</title>
+    <link rel="stylesheet" href="normalise.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <div>
-          <a href="#">Logo</a>
-        </div>
         <nav>
-            <ul>
+            <ul id="navbar">
+                <a href="#">Logo</a>
                 <a href="#">Главная</a>
                 <a href="#">Новости</a>
                 <a href="#">О нас</a>
+                <button>Выйти</button>
             </ul>
         </nav>    
     
-        <button>Выйти</button>
     </header>
 </body>
 
-<div>
+<div class="box">
      <div>
         <h2>Спортивные технологии</h2>
         <h1>Развивайте свою любовь к спорту</h1>
@@ -37,6 +36,28 @@
     </div>
 </div>
 
-<div>
-    <p>© 2024 все права защищены</p>
-</div>
+<footer class="footer">
+    <p id="example">© 2024 все права защищены</p>
+</footer>
+
+<style>
+    #example {
+        color: ghostwhite;
+    }
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  }
+#navbar a {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+}
+
+</style>

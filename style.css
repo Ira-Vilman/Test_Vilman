@@ -1,3 +1,31 @@
-body {
-    background-color: #303a66;
+.header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #342B5C;
 }
+
+.footer {
+    height: 10%;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #37442A;
+}
+
+.box {
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 1024px;
+    padding: 0px;
+    padding-bottom: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    position: relative;
+    min-height: 100%;
+}
+
