@@ -26,3 +26,14 @@
     justify-content: right;
  }
 
+.box-2 {
+    width: 205px;
+    height: 67px;
+    border: 1px solid #090b07;
+    background-color: rgb(3, 5, 5);
+    position: relative;
+    text-align: center;
+    margin-right: 50px;
+    display: inline-block;
+}
+
